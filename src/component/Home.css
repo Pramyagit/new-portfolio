@@ -157,7 +157,7 @@
     display: flex;
     width: 300px;
     position: absolute;
-    top: 270px;
+    top: 300px;
     z-index:10;
   }
   .profile {
@@ -176,7 +176,6 @@
   .contact-home {
     margin-top: 80px;
     display: flex;
-   
     flex-direction: column;
     gap: 10px;
   }
@@ -184,7 +183,9 @@
     display: block;
   }
   .home_social {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    padding-left:30px;
   }
   .button-resume {
     display: block;
