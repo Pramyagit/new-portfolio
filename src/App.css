@@ -1,0 +1,198 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html {
+  overflow-x: hidden;
+}
+:root {
+  --background-color: rgba(1, 28, 31, 0.783);
+  --color: #ffffff93;
+  --colorw: #ffffff;
+  --black: #0000;
+  --bg-color: rgb(2, 64, 83);
+  --button: #0896af;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--color);
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(28, 73, 88);
+}
+
+.port {
+  padding-left: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.port:hover {
+  background-color: rgb(6, 82, 114);
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.nav ul li {
+  width: 100px;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  right: 20px;
+  overflow: hidden;
+}
+.nav ul li a {
+  color: white;
+}
+
+.nav ul li:hover {
+  background-color: rgb(15, 134, 158);
+  color: rgb(6, 61, 85);
+  text-decoration: underline white;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.menu {
+  display: none;
+}
+/* .....................main ..................sections............*/
+/* home */
+.home {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background-color);
+}
+/* about */
+.about {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background-color);
+}
+/* skill */
+.skill {
+  width: 100%;
+  height: calc(100vh + 80px);
+  background-color: var(--background-color);
+}
+/* Demo */
+.demo {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background-color);
+}
+/* contact */
+.contact {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background-color);
+}
+/* footer */
+.footer {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(28, 73, 88);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color);
+  position: fixed;
+  bottom: 0;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    width: 100%;
+  }
+  .nav ul {
+    z-index: 11;
+    min-width: 45%;
+    width: 100%;
+    display: none;
+    float: right;
+    margin-right: 4px;
+    margin-top: 220px;
+    /* padding: 2px; */
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.454);
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .nav ul li {
+    z-index: 10;
+    flex-wrap: wrap;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.151);
+    display: flex;
+    justify-content: center;
+  }
+  .nav ul li:hover {
+    background-color: rgb(15, 134, 158);
+  }
+  .menu {
+    position: absolute;
+    top: 16px;
+    right: 30px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  nav ul.open {
+    display: block;
+  }
+}
+
+/* animation */
+.animation {
+  background-color: transparent;
+  font-size: 28px;
+  color: var(--color);
+}
+@media screen and (max-width: 600px) {
+  .animation {
+    width: 100%;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+  }
+}
+@media screen and(max-width:1200px) {
+  .nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: red;
+  }
+  .nav ul li {
+    width: 50px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    overflow: hidden;
+    background-color: red;
+  }
+}

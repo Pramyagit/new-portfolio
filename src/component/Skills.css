@@ -1,0 +1,160 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section_title {
+  text-transform: uppercase;
+}
+.skills_container {
+  width: 100%;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.skills_subtitle {
+  display: flex;
+  width: 100%;
+  padding-left: 20px;
+  text-transform: capitalize;
+  justify-content: flex-start;
+}
+
+.skills_data {
+  width: 80%;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  position: relative;
+  padding: 0.5rem 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8px;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 25px rgba(232, 238, 241, 0.525);
+  background-color: var(--black);
+}
+.skills_data:hover {
+  scale: 1.2;
+  background-color: #0896af;
+}
+
+.skills_name {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.skill_bar {
+  left: 0;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--color);
+  border-radius: 0.5rem;
+  height: 0.25rem;
+}
+.skill_name {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.skill_html {
+  width: 95%;
+}
+.skill_css {
+  width: 90%;
+}
+.skill_javascript {
+  width: 80%;
+}
+.skill_bootstrap {
+  width: 80%;
+}
+.skill_react {
+  width: 80%;
+}
+
+.skill_figma {
+  width: 85%;
+}
+.skill_ui {
+  width: 80%;
+}
+.skill_python {
+  width: 50%;
+}
+.skill_icon {
+  width: 20px;
+  height: 20px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  background-color: var(--color);
+}
+.skills_name .html {
+  color: #ff5733;
+}
+.skills_name .css {
+  color: rgb(0, 0, 255);
+}
+.skills_name .js {
+  color: #ffff00;
+}
+.skills_name .bootstrap {
+  color: #d113df;
+}
+.skills_name .react {
+  color: #046a81;
+}
+.skills_name .fig {
+  color: #f14242;
+}
+.skills_name .ui {
+  width: 25px;
+  border: 1px solid blue;
+  color: #4507c1;
+  font-size: 8px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.skills_name .python {
+  color: #4507c1;
+}
+
+@media screen and (max-width: 600px) {
+  .skill {
+    width: 1005;
+    padding: 0;
+    height: fit-content;
+  }
+  .skills_container {
+    width: 100%;
+    height: 100vh;
+  }
+  .skills_subtitle {
+    display: flex;
+    width: 100%;
+
+    text-transform: capitalize;
+    justify-content: flex-start;
+  }
+  .skills_data:hover {
+    scale: 1.2;
+    background-color: #0896af;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .skill {
+    height: calc(100vh + 180px);
+    padding-bottom: 50px;
+  }
+  .skills {
+    width: 100%;
+    height: 100%;
+  }
+  .skills_container {
+    width: 100%;
+    height: 100vh;
+  }
+}
