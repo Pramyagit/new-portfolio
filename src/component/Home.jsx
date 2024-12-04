@@ -33,7 +33,7 @@ export const Home = () => {
             data-aos="fade-right"
             data-delay="1100"
           >
-            <a href="Contact">Contact</a>
+            <a href="/Contact">Contact</a>
           </button>
           <button
             className="button-resume"
