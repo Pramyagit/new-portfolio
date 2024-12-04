@@ -14,16 +14,16 @@ export const Header = () => {
             <Link to="/">HOME</Link>
           </li>
           <li>
-            <Link to="/about">ABOUT</Link>
+            <Link to="/About">ABOUT</Link>
           </li>
           <li>
-            <Link to="/skill">SKILL</Link>
+            <Link to="/Skill">SKILL</Link>
           </li>
           <li>
-            <Link to="/demo">DEMO</Link>
+            <Link to="/Demo">DEMO</Link>
           </li>
           <li>
-            <Link to="/contact">CONTACT</Link>
+            <Link to="/Contact">CONTACT</Link>
           </li>
           {/* <li className="menu">
             <a href="" className="icon">
