@@ -157,7 +157,7 @@
     display: flex;
     width: 300px;
     position: absolute;
-    top: 250px;
+    top: 270px;
     z-index:10;
   }
   .profile {
@@ -165,7 +165,7 @@
     height: 150px;
     position: relative;
     left: 0;
-    top: 1px;
+    top: -80px;
 
   }
   .profile img {
