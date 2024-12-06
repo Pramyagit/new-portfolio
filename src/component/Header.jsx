@@ -11,7 +11,7 @@ export const Header = () => {
       <nav className="nav" id="topnav">
         <ul className={menu ? "open" : ""}>
           <li>
-            <Link to="/">HOME</Link>
+            <Link to="/Home">HOME</Link>
           </li>
           <li>
             <Link to="/About">ABOUT</Link>
